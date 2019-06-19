@@ -29,26 +29,36 @@
                         }
                         </script>
             </div>
-                    <!-- <div class="popup" onclick="myFunction1()">Contact me
-                            <span class="popuptext" id="myPopup">FB: Kittipong Boss Yoonirundorn</span>
-                            <span class="popuptext" id="myPopup">ID-LINE: bossthesun2541</span>
-                            <span class="popuptext" id="myPopup">Tel: 094-493-9111</span>
-                        </div>
-                        <script>
-                                function myFunction1() {
-                                    var popup = document.getElementById("myPopup");
-                                    popup.classList.toggle("show");
-                                }
-                        </script> -->
         </div>
 
         <div class="center">
             <button id="myBtn">Photo</button>
             <div id="myModal" class="modal">
                 <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/1509199_452387534866527_88718471_n.jpg?_nc_cat=104&_nc_oc=AQnO7ijCAS3eo6GHqL_QoxTQaHtBU9-Q3M0PvBBm9f5eo8RJ3zXHVP0lAukCTbmmyYY&_nc_ht=scontent.fbkk14-1.fna&oh=a440fa763c0ae9a5453c2ccced5b6ece&oe=5D83B954" width="380" height="400">  
-                    <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/1655833_476033192501961_1585920130_n.jpg?_nc_cat=106&_nc_oc=AQlIZuSxqOm3H95qP44X8FOaNj2Fhx_Uo6XExZVVOW0fDXmBwn-PZ8TeMtZPMveB2Qw&_nc_ht=scontent.fbkk14-1.fna&oh=a7bd320552d006f9ca538cd6a54f0aab&oe=5D79C7A8" width="380" height="400">
+                    <span class="close">&times;</span>  
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/1509199_452387534866527_88718471_n.jpg?_nc_cat=104&_nc_oc=AQnO7ijCAS3eo6GHqL_QoxTQaHtBU9-Q3M0PvBBm9f5eo8RJ3zXHVP0lAukCTbmmyYY&_nc_ht=scontent.fbkk14-1.fna&oh=a440fa763c0ae9a5453c2ccced5b6ece&oe=5D83B954" width="380" height="400">
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/1655833_476033192501961_1585920130_n.jpg?_nc_cat=106&_nc_oc=AQlIZuSxqOm3H95qP44X8FOaNj2Fhx_Uo6XExZVVOW0fDXmBwn-PZ8TeMtZPMveB2Qw&_nc_ht=scontent.fbkk14-1.fna&oh=a7bd320552d006f9ca538cd6a54f0aab&oe=5D79C7A8" width="380" height="400">
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.0-9/12342682_751447118293899_4339689312507198545_n.jpg?_nc_cat=102&_nc_oc=AQn8o5vA5o4HqBZMDvlSDlErJ1PCelEFO6mbaAfGGrm_hQXGIh69Dvs3XMTDIqscGu4&_nc_ht=scontent.fbkk10-1.fna&oh=258deb66b4ba055291447579d3e865de&oe=5DC4C23A" width="380" height="400">
+                        </div>
+                      </div>
+                      <br>
+                      
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                      </div>
                     <script>
                             var slideIndex = 0;
                             showSlides();
@@ -66,7 +76,7 @@
                               }
                               slides[slideIndex-1].style.display = "block";  
                               dots[slideIndex-1].className += " active";
-                              setTimeout(showSlides, 2000); // Change image every 2 seconds
+                              setTimeout(showSlides, 2000); 
                             }
                             </script>
                 </div>
@@ -87,6 +97,19 @@
                     }
                 }
             </script>
+        </div>
+        <style>
+            div.a {
+                text-align: justify;
+                -moz-text-align-last: right;
+                text-align-last: right;
+                margin-right: 80px;
+            }
+
+        </style>
+        
+        <div class="a">
+            <p><a href="https://www.facebook.com/kittipong.yoonirundorn" style="color: blue">Contact me</a></p>
         </div>
         
          
