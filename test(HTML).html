@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hello World!</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Kittipong Yoonirundorn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="test(CSS).css">
     <link rel="stylesheet" href="D:\">
-    <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
-          </div>
-          <div class="alert alert-secondary" role="alert">
-            A simple secondary alert—check it out!
-          </div>
-          <div class="alert alert-success" role="alert">
-            A simple success alert—check it out!
-          </div>
-          <div class="alert alert-danger" role="alert">
-            A simple danger alert—check it out!
-          </div>
-          <div class="alert alert-warning" role="alert">
-            A simple warning alert—check it out!
-          </div>
-          <div class="alert alert-info" role="alert">
-            A simple info alert—check it out!
-          </div>
-          <div class="alert alert-light" role="alert">
-            A simple light alert—check it out!
-          </div>
-          <div class="alert alert-dark" role="alert">
-            A simple dark alert—check it out!
-          </div>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-              </nav>
 </head>
-<body class="center">
-<h1>Welcome to HTML</h1>
-<p>This is a paragraph.</p>
+<body>
+<h1 class="center" style="font-family:'Courier New', Courier, monospace">Welcome to me site</h1>
+    <div class="center">
+        <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/26167534_1273701816068424_8251963759742830982_n.jpg?_nc_cat=111&_nc_eui2=AeEEQDmRh4OPw1bvQyhdvYxszCKVem5bxLnZXvcDeRYOL93hR9g2vP1xCNrankJ2YbctJEvON5gjsSRgtv12tFZOKD3l0aPdUSEWC6AVZYpLLQ&_nc_oc=AQmJ3dqBLu3WnA9gksJtanTA2F4_haDfz5PrwcWxhQStFU1x0HhBVE2dkkMEbVh7yRi5ItHu1W04oG1BcSZGPasN&_nc_ht=scontent.fbkk14-1.fna&oh=f395a345242c5966124e1639ae1f9ef2&oe=5D841B86" width="380" height="400">
+    </div>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <button class="btn">Menu</button>
+        <div class="dropdown">
+            <button class="btn" style="border-left:1px solid rgb(47, 128, 0)">
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <div class="popup" onclick="myFunction()">About me
+                    <span class="popuptext" id="myPopup">My name is Kittipong Yoonirundorn I'm 21 years old. I'm study at Kasetsart university Faculty of Computer Science. Now in year 2, going up year 3, Free time, I like to watch movies, listen to music and coding. My favorite sport is basketball. I have twins, he studying at Thammasat university Faculty of Civil Engineering.</span>
+                </div>
+                <script>
+                        function myFunction() {
+                          var popup = document.getElementById("myPopup");
+                          popup.classList.toggle("show");
+                        }
+                        </script>
+            </div>
+                    <!-- <div class="popup" onclick="myFunction1()">Contact me
+                            <span class="popuptext" id="myPopup">FB: Kittipong Boss Yoonirundorn</span>
+                            <span class="popuptext" id="myPopup">ID-LINE: bossthesun2541</span>
+                            <span class="popuptext" id="myPopup">Tel: 094-493-9111</span>
+                        </div>
+                        <script>
+                                function myFunction1() {
+                                    var popup = document.getElementById("myPopup");
+                                    popup.classList.toggle("show");
+                                }
+                        </script> -->
+        </div>
+
+        <div class="center">
+            <button id="myBtn">Photo</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/1509199_452387534866527_88718471_n.jpg?_nc_cat=104&_nc_oc=AQnO7ijCAS3eo6GHqL_QoxTQaHtBU9-Q3M0PvBBm9f5eo8RJ3zXHVP0lAukCTbmmyYY&_nc_ht=scontent.fbkk14-1.fna&oh=a440fa763c0ae9a5453c2ccced5b6ece&oe=5D83B954" width="380" height="400">  
+                    <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/1655833_476033192501961_1585920130_n.jpg?_nc_cat=106&_nc_oc=AQlIZuSxqOm3H95qP44X8FOaNj2Fhx_Uo6XExZVVOW0fDXmBwn-PZ8TeMtZPMveB2Qw&_nc_ht=scontent.fbkk14-1.fna&oh=a7bd320552d006f9ca538cd6a54f0aab&oe=5D79C7A8" width="380" height="400">
+                    <script>
+                            var slideIndex = 0;
+                            showSlides();
+                            function showSlides() {
+                              var i;
+                              var slides = document.getElementsByClassName("mySlides");
+                              var dots = document.getElementsByClassName("dot");
+                              for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                              }
+                              slideIndex++;
+                              if (slideIndex > slides.length) {slideIndex = 1}    
+                              for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                              }
+                              slides[slideIndex-1].style.display = "block";  
+                              dots[slideIndex-1].className += " active";
+                              setTimeout(showSlides, 2000); // Change image every 2 seconds
+                            }
+                            </script>
+                </div>
+            </div>
+            <script>
+                var modal = document.getElementById("myModal");
+                var btn = document.getElementById("myBtn");
+                var span = document.getElementsByClassName("close")[0];
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                }
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+        
+         
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
